@@ -27,7 +27,7 @@ public class Q1 {
 			sheet1.createRow(i).createCell(0).setCellValue(num.nextInt(1000));
 		}
 				
-		// File Output
+		// File Output .
 		String path = "C:\\JAVA\\workplace\\Exercice.xlsx";
 		File f = new File(path);
 		FileOutputStream fo = new FileOutputStream(f);
